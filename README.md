@@ -23,5 +23,4 @@ The dataset for this competition is a relational set of files describing custome
   * number_of_orders
   * number_of_first_orders
   * percentage
-# Project Structure
 
