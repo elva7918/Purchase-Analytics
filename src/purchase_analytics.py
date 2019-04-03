@@ -40,7 +40,7 @@ department = "UNKNOWN"
 print("start parsing orders orders_file: ", orders_file)
 
 with open(orders_file) as infile:
-    print(orders_file)
+    #print(orders_file)
     lineIndex = 0
     for line in infile:
         #print(line)
@@ -79,7 +79,7 @@ with open(outputfile, 'w') as outfile:
     outfile.write("department_id,number_of_orders,number_of_first_orders,percentage\r\n")
     for v in sortedValues:
         line = str(v[0]) + "," + str(v[1]) + "," + str(v[2]) + "," + str("%0.2f" % (v[2]/v[1]) + "\r\n")
-        print(line)
+        #print(line)
                                                                          
         outfile.write(line)
         
